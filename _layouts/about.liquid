@@ -58,14 +58,9 @@ layout: default
               {% endfor %}
             </div>
             {% if profile_images_count > 1 %}
-              <div class="profile-toggle__controls">
-                <button type="button" class="btn btn-outline-primary btn-sm profile-toggle__button" data-profile-toggle-button>
-                  {{ page.profile.toggle_button_label | default: 'Switch photo' }}
-                </button>
-                <span class="sr-only" data-profile-toggle-status aria-live="polite">
-                  Showing photo 1 of {{ profile_images_count }}
-                </span>
-              </div>
+              <span class="sr-only" data-profile-toggle-status aria-live="polite">
+                Showing photo 1 of {{ profile_images_count }}
+              </span>
             {% endif %}
           </div>
         {% elsif page.profile.image %}

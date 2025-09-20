@@ -59,16 +59,6 @@ body.sticky-bottom-footer {
   &__image--active {
     display: block;
   }
-
-  &__controls {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-  }
-
-  &__button {
-    align-self: flex-start;
-  }
 }
 
 // TODO: redefine content layout.

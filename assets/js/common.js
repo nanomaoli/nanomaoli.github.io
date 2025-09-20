@@ -94,14 +94,6 @@ $(document).ready(function () {
       setActiveImage(nextIndex);
     };
 
-    var button = toggleEl.querySelector("[data-profile-toggle-button]");
-    if (button) {
-      button.addEventListener("click", function (event) {
-        event.preventDefault();
-        showNextImage();
-      });
-    }
-
     imageWrappers.forEach(function (wrapper) {
       wrapper.addEventListener("click", function (event) {
         event.preventDefault();
