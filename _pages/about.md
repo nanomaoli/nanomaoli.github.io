@@ -7,11 +7,15 @@ subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 profile:
   align: left
   images:
+    - path: hike_yosemite_34.jpg
+      alt: Casual outdoor portrait
     - path: ucsb_campuspointbeach_34.jpg
       alt: Casual outdoor portrait
     - path: hike_17milesdrive_34.jpg
       alt: Casual outdoor portrait
-    - path: hike_yosemite_34.jpg
+    - path: hike_grandcanyon_34.jpg
+      alt: Casual outdoor portrait
+    - path: nostalgia_kidatzoo_34.jpg
       alt: Casual outdoor portrait
   image: hike_17milesdrive_34.jpg # fallback for layouts that expect a single image
   image_circular: false # crops the image to make it circular
