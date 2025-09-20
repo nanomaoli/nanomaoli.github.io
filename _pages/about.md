@@ -13,6 +13,7 @@ profile:
       alt: Casual outdoor portrait
   image: 1.jpg # fallback for layouts that expect a single image
   image_circular: false # crops the image to make it circular
+  toggle_button_label: Switch photo # text for the optional toggle button
   more_info: >
     <p>555 your office number</p>
     <p>123 your address street</p>
