@@ -5,9 +5,15 @@ permalink: /
 subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
-  align: left
-  image: hike_yosemite_34.jpg
+  align: right
+  images:
+    - path: 1.jpg
+      alt: Formal headshot in the office
+    - path: 2.jpg
+      alt: Casual outdoor portrait
+  image: 1.jpg # fallback for layouts that expect a single image
   image_circular: false # crops the image to make it circular
+  toggle_button_label: Switch photo # text for the optional toggle button
   more_info: >
     <p>555 your office number</p>
     <p>123 your address street</p>
@@ -27,7 +33,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put pictures in, too. Add them to the `assets/img/` folder and list them under `profile.images` in this page's front matter to enable the built-in photo switcher (or keep using `profile.image` for a single picture).
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
