@@ -5,13 +5,13 @@ permalink: /
 subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
-  align: right
+  align: left
   images:
-    - path: 1.jpg
+    - path: hike_17milesdrive_34.jpg
       alt: Formal headshot in the office
-    - path: 2.jpg
+    - path: hike_yosemite_34.jpg
       alt: Casual outdoor portrait
-  image: 1.jpg # fallback for layouts that expect a single image
+  image: hike_17milesdrive_34.jpg # fallback for layouts that expect a single image
   image_circular: false # crops the image to make it circular
   toggle_button_label: Switch photo # text for the optional toggle button
   more_info: >
