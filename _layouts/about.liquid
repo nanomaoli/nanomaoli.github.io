@@ -17,18 +17,62 @@ layout: default
   <article>
     {% if page.profile %}
       <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
-        {% if page.profile.image %}
+        {% assign profile_images = page.profile.images %}
+        {% assign profile_images_count = profile_images | size %}
+        {% if page.profile.image_circular %}
+          {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+        {% else %}
+          {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+        {% endif %}
+        {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3 }}px, (min-width: 576px) 30vw, 95vw{% endcapture %}
+        {% if profile_images_count > 0 %}
+          <div class="profile-toggle" data-profile-toggle>
+            <div class="profile-toggle__images">
+              {% for profile_image_entry in profile_images %}
+                {% if profile_image_entry.path %}
+                  {% assign profile_image_file = profile_image_entry.path %}
+                {% else %}
+                  {% assign profile_image_file = profile_image_entry %}
+                {% endif %}
+                {% assign profile_image_alt = profile_image_entry.alt | default: page.profile.image_alt | default: profile_image_file %}
+                {% assign profile_image_path = profile_image_file | prepend: 'assets/img/' %}
+                <div
+                  class="profile-toggle__image{% if forloop.first %} profile-toggle__image--active{% endif %}"
+                  data-profile-image
+                  data-profile-image-index="{{ forloop.index0 }}"
+                  tabindex="0"
+                  role="button"
+                  aria-pressed="{% if forloop.first %}true{% else %}false{% endif %}"
+                  aria-label="{{ page.profile.toggle_aria_label | default: 'Profile photo' }} {{ forloop.index }} of {{ profile_images_count }}"
+                >
+                  {%
+                    include figure.liquid
+                    loading="eager"
+                    path=profile_image_path
+                    class=profile_image_class
+                    sizes=sizes
+                    alt=profile_image_alt
+                    cache_bust=true
+                  %}
+                </div>
+              {% endfor %}
+            </div>
+            {% if profile_images_count > 1 %}
+              <span class="sr-only" data-profile-toggle-status aria-live="polite">
+                Showing photo 1 of {{ profile_images_count }}
+              </span>
+            {% endif %}
+          </div>
+        {% elsif page.profile.image %}
           {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-          {% if page.profile.image_circular %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-          {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
-          {% endif %}
-          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
+          {% assign profile_image_alt = page.profile.image_alt | default: page.profile.image %}
           {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
+            include figure.liquid
+            loading="eager"
+            path=profile_image_path
+            class=profile_image_class
+            sizes=sizes
+            alt=profile_image_alt
             cache_bust=true
           %}
         {% endif %}
