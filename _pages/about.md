@@ -7,6 +7,8 @@ subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 profile:
   align: left
   images:
+    - path: hike_yosemite_mountain_34.jpg
+      alt: Casual outdoor portrait
     - path: hike_yosemite_34.jpg
       alt: Casual outdoor portrait
     - path: ucsb_campuspointbeach_34.jpg
