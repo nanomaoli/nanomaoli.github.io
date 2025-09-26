@@ -379,12 +379,7 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "books-uyghur-an-elementary-textbook",
-          title: 'Uyghur An Elementary Textbook',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-one-paper-has-been-accepted-to-isca-2025",
+      },{id: "news-one-paper-has-been-accepted-to-isca-2025",
           title: 'One paper has been accepted to ISCA 2025!',
           description: "",
           section: "News",},{id: "news-one-paper-has-been-accepted-to-neurips-2025-as-an-oral-presentation-code-amp-amp-talk",
