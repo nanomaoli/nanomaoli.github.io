@@ -1,6 +1,6 @@
 ---
 layout: book-review
-title: Uyghur: An Elementary Textbook
+title: Uyghur\: An Elementary Textbook
 author: Gulnisa Nazarova, Kurban Niyaz
 cover: assets/img/book_covers/uyghur_an_elementary_textbook.jpg
 olid: OL43499941M # use Open Library ID to fetch cover (if no `cover` is provided)
