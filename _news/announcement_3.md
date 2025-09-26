@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2025-09-18 12:59:00-0600
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+One paper has been accepted to NeurIPS 2025 as an Oral Presentation! [Code](https://github.com/nanomaoli/llm_reproducibility) & [Talk](https://youtu.be/xtzACc7qbyI?si=Y-mYxFlXZ9zcmz6-) 🙌
