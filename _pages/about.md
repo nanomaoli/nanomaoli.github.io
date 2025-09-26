@@ -41,7 +41,11 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put pictures in, too. Add them to the `assets/img/` folder and list them under `profile.images` in this page's front matter to enable the built-in photo switcher (click the picture to cycle through them, or keep using `profile.image` for a single photo).
+Howdy! I am a 2nd-year Ph.D. student in Electrical and Computer Engineering at the University of Minnesota. I am currently working with [Prof. Zirui Liu](https://zirui-ray-liu.github.io/) on research in machine learning and systems.
+
+My recent projects explore **reproducible long-context reasoning** in LLMs and **elastic KV cache infrastructure** for GPU sharing across models. Broadly, I enjoy investigating the intersection of algorithms and systems to make AI both more efficient and more reliable.
+
+I am always open to new discussions and collaborations. If you have ideas or questions you’d like to share, feel free to reach out!
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
