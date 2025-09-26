@@ -379,7 +379,12 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "news-one-paper-has-been-accepted-to-isca-2025",
+      },{id: "books-uyghur-an-elementary-textbook",
+          title: 'Uyghur An Elementary Textbook',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/uyghur_an_elementary_textbook/";
+            },},{id: "news-one-paper-has-been-accepted-to-isca-2025",
           title: 'One paper has been accepted to ISCA 2025!',
           description: "",
           section: "News",},{id: "news-one-paper-has-been-accepted-to-neurips-2025-as-an-oral-presentation-code-amp-amp-talk",
