@@ -379,8 +379,8 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "books-",
-          title: '',
+      },{id: "books-uyghur-an-elementary-textbook",
+          title: 'Uyghur An Elementary Textbook',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
