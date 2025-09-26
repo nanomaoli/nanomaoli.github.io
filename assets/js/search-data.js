@@ -389,11 +389,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "news-one-paper-has-been-accepted-to-isca-2025",
+            },},{id: "news-one-paper-has-been-accepted-to-isca-2025",
           title: 'One paper has been accepted to ISCA 2025!',
+          description: "",
+          section: "News",},{id: "news-one-paper-has-been-accepted-to-neurips-2025-as-an-oral-presentation-code-amp-amp-talk",
+          title: 'One paper has been accepted to NeurIPS 2025 as an Oral Presentation! Code...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
