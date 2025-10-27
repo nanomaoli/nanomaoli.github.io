@@ -41,6 +41,6 @@ latest_posts:
 
 Howdy! I am a 2nd-year Ph.D. student in Electrical and Computer Engineering at the University of Minnesota. I am currently working with [Prof. Zirui Liu](https://zirui-ray-liu.github.io/) on research in **machine learning and systems**.
 
-My recent projects explore **reproducible long-context reasoning** in LLMs and **elastic KV cache infrastructure** for GPU sharing across models. Broadly, I enjoy investigating the intersection of algorithms and systems to make AI both more **efficient** and more **robust**.
+My recent projects explore **LLM determinism** in training and inference and **elastic KV cache** for efficient GPU memory utilization. Broadly, I enjoy investigating the intersection of algorithms and systems to make AI both more **efficient** and more **robust**.
 
 I am always open to new discussions and collaborations. If you have ideas or questions you’d like to share, feel free to reach out!
