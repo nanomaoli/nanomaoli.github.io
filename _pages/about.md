@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Student @ UMN ECE, Machine Learning and Systems
+subtitle: PhD Student @ UMN CS, Machine Learning and Systems
 
 profile:
   align: left
@@ -39,8 +39,8 @@ latest_posts:
 
 ### About me
 
-Howdy! I am a 2nd-year Ph.D. student in Electrical and Computer Engineering at the University of Minnesota. I am currently working with [Prof. Zirui Liu](https://zirui-ray-liu.github.io/) on research in **machine learning and systems**.
+Howdy! I am an incoming Ph.D. student in Computer Science at the University of Minnesota. I am currently working with [Prof. Zirui Liu](https://zirui-ray-liu.github.io/) on **machine learning and systems**.
 
-My recent projects explore **LLM determinism** in training and inference and **elastic KV cache** for efficient GPU memory utilization. Broadly, I enjoy investigating the intersection of algorithms and systems to make AI both more **efficient** and more **robust**.
+My recent projects explore **LLM determinism** in training and inference and **elastic KV cache** for efficient GPU memory utilization. Broadly, I enjoy investigating the intersection of algorithms and systems to make AI more **capable**, more **efficient**, and more **reliable**.
 
 I am always open to new discussions and collaborations. If you have ideas or questions you’d like to share, feel free to reach out!
